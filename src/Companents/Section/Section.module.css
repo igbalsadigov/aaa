@@ -1,0 +1,46 @@
+.siteSec {
+    background-image: url("../Images/slider-1.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.container {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.sect {
+    width: 50%;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+}
+span{
+    font-size: 40px;
+    font-family: 'Sacramento';
+}
+h2{
+    font-family: 'Open Sans';
+    font-size: 30px;
+}
+p{
+    font-family: 'Open Sans';
+      font-size: 17px;
+}
+button{
+    width: 35%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #BC5148;
+    color: white;
+    font-size: 15px;
+}
